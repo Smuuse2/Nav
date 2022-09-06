@@ -1,0 +1,119 @@
+body
+{
+    background-image:url(./certificate_480px.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100px;
+}
+
+
+
+.Drop{
+
+    gap: 5px;
+    background-color: black;
+margin: 2px 0px;
+border-radius: 5px;
+border: 3px solid deepskyblue;
+text-align: center;
+padding: 10px;
+}
+.container{
+
+    display: grid;
+    grid: 100px;
+    justify-content: space-between;
+
+    color: white;
+    padding: 1rem;
+    grid-template-columns: repeat(3,30%);
+  
+ 
+
+}
+@media screen and  (max-width: 768px) {
+    .container
+    { grid-template-columns: repeat(1,100%);
+        gap: 20px   ;
+       background-color: red;
+       
+
+    }
+    
+}
+.Drop h3{
+
+margin-top: -10px;
+
+
+}
+
+
+.nav
+{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(88, 88, 88);
+    align-items: center;
+
+}
+
+.logo img 
+{
+   width: 20px;
+   height: 20px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+
+}
+.logo h1
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+}
+
+li
+{
+    list-style-type: none;
+
+}
+
+li a
+{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    color: white;
+    margin-right: 20px;
+}
+
+a:hover
+{
+    background-color: purple;
+    color: whitesmoke;
+    transition: all 0.6 ease;
+}
+
+/* .back
+{
+    background-color: white;
+    display: flex;
+} */
